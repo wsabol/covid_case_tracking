@@ -5,6 +5,9 @@ import datetime as dt
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv
+import os
+
+os.chdir("/usr/local/data/www/sites/covid/")
 
 r = requests.get('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv')
 
